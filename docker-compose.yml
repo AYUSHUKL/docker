@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "27017:27017"
+      - "80:80"
